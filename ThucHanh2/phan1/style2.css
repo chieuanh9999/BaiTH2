@@ -1,0 +1,50 @@
+/* style.css */
+body {
+  background-color: #559ad5;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.schedule {
+  background-color: #851d1d;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Tô màu hàng chẵn/lẻ */
+tbody tr:nth-child(odd) {
+  background-color: #e3f2fd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fff9c4;
+}
+
+/* Hover đổi màu */
+tbody tr:hover {
+  background-color: #c8e6c9;
+  cursor: pointer;
+}

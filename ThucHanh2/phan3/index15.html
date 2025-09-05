@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thanh toán đơn hàng</title>
+    <link rel="stylesheet" href="style14.css" />
+  </head>
+  <body>
+    <div class="checkout-form">
+      <h2>🛒 Thanh toán đơn hàng</h2>
+      <form>
+        <!-- Địa chỉ giao hàng -->
+        <fieldset>
+          <legend>Địa chỉ giao hàng</legend>
+          <input type="text" placeholder="Họ và tên" required />
+          <input type="text" placeholder="Số điện thoại" required />
+          <textarea rows="3" placeholder="Địa chỉ chi tiết" required></textarea>
+        </fieldset>
+
+        <!-- Thông tin thanh toán -->
+        <fieldset>
+          <legend>Thông tin thanh toán</legend>
+          <input
+            type="text"
+            placeholder="Số thẻ (xxxx xxxx xxxx xxxx)"
+            required
+          />
+          <input type="text" placeholder="Tên chủ thẻ" required />
+          <input type="text" placeholder="Ngày hết hạn (MM/YY)" required />
+          <input type="text" placeholder="Mã CVV" required />
+        </fieldset>
+
+        <!-- Phương thức thanh toán -->
+        <fieldset>
+          <legend>Phương thức thanh toán</legend>
+          <label
+            ><input type="radio" name="method" value="credit" checked /> Thẻ tín
+            dụng</label
+          ><br />
+          <label
+            ><input type="radio" name="method" value="cod" /> Thanh toán khi
+            nhận hàng (COD)</label
+          ><br />
+          <label
+            ><input type="radio" name="method" value="bank" /> Chuyển khoản ngân
+            hàng</label
+          >
+        </fieldset>
+
+        <button type="submit">Xác nhận thanh toán</button>
+      </form>
+    </div>
+  </body>
+</html>

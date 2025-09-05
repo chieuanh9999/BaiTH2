@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+    font-family:'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+.subject-list{
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.subject-list h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(42, 165, 56);
+}
+.subject-list ul{
+    list-style-type:decimal;
+    padding: 20px;
+    margin: 8px; 
+}
+.subject-list li{
+    padding:12px 20px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.subject-list li:nth-child(odd){
+    background-color: aquamarine;
+}
+.subject-list li:nth-child(even){
+    background-color: brown;
+}
+.subject-list li:hover{
+    background-color:aliceblue;
+    cursor:pointer;
+}

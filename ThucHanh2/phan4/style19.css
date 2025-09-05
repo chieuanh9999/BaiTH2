@@ -1,0 +1,86 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.cv-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Sidebar trái */
+.sidebar {
+  background-color: #263238;
+  color: white;
+  width: 35%;
+  padding: 30px;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.sidebar p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  margin: 8px 0;
+}
+
+/* Nội dung chính */
+.main-content {
+  width: 65%;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Màu từng phần */
+.blue {
+  background-color: #e3f2fd;
+}
+
+.gray {
+  background-color: #eceff1;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.section p {
+  line-height: 1.6;
+}

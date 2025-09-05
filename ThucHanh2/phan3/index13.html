@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Đặt bàn quán ăn</title>
+    <link rel="stylesheet" href="style12.css" />
+  </head>
+  <body>
+    <div class="booking-form">
+      <h2>🍽️ Đặt bàn trước</h2>
+      <form>
+        <label for="date">Ngày đặt:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Giờ đặt:</label>
+        <input type="time" id="time" name="time" required />
+
+        <label for="guests">Số người:</label>
+        <input
+          type="number"
+          id="guests"
+          name="guests"
+          min="1"
+          max="20"
+          required
+        />
+
+        <label for="note">Yêu cầu đặc biệt:</label>
+        <textarea
+          id="note"
+          name="note"
+          rows="4"
+          placeholder="Ví dụ: cần bàn gần cửa sổ, ăn chay..."
+        ></textarea>
+
+        <button type="submit">Đặt bàn</button>
+      </form>
+    </div>
+  </body>
+</html>
